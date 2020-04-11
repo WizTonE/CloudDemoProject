@@ -26,3 +26,6 @@ jobs:
     - name: Test
       working-directory:  ./Source
       run: dotnet test --no-restore --verbosity normal
+    - name: Docker ECR
+      uses: appleboy/docker-ecr-action@v0.0.2
+
