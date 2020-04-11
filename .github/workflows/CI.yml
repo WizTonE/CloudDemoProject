@@ -30,4 +30,4 @@ jobs:
       uses: appleboy/docker-ecr-action@v0.0.2
       with:
         context:  ./Source
-
+        region: us-east-2
