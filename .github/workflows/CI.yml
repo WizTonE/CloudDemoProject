@@ -31,7 +31,7 @@ jobs:
       with:
         access_key: ${{ secrets.aws_access_key_id }}
         secret_key: ${{ secrets.aws_secret_access_key }}
-        repo: arn:aws:ecr:us-east-2:767888332490:repository/demoapi
+        repo: demoapi
         region: us-east-2
-        dockerfile: ./Source/Dockerfile
-        context: ./Source
+        dockerfile: Source/Dockerfile
+        context: Source
