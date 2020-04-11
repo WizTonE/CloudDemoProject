@@ -33,4 +33,3 @@ jobs:
         secret_key: ${{ secrets.aws_secret_access_key }}
         repo: demoapi
         region: us-east-2
-        dockerfile: Source/Dockerfile
