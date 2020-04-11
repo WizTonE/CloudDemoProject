@@ -29,6 +29,13 @@ jobs:
     - name: Docker ECR
       uses: appleboy/docker-ecr-action@v0.0.2
       with:
+        access_key: ${{ secrets.aws_access_key_id }}
+        secret_key: ${{ secrets.aws_secret_access_key }}
+        registry: ${{ secrets.registry }}
+        cache_from: ${{ secrets.cache }}
+        repo: arn:aws:ecr:us-east-2:767888332490:repository/demoapi
         region: us-east-2
         dockerfile: Source/Dockerfile
         context: Source
+        auto_tag: true
+        daemon_off: false
