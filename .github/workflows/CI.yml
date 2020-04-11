@@ -26,3 +26,10 @@ jobs:
     - name: Test
       working-directory:  ./Source
       run: dotnet test --no-restore --verbosity normal
+    - name: Docker ECR
+      uses: appleboy/docker-ecr-action@v0.0.2
+      with:
+        access_key: ${{ secrets.aws_access_key_id }}
+        secret_key: ${{ secrets.aws_secret_access_key }}
+        repo: demoapi
+        region: us-east-2
