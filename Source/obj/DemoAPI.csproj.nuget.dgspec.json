@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "N:\\Work\\Amazon\\DemoAPI\\Source\\DemoAPI.csproj": {}
+    "N:\\Work\\Amazon\\CloudDemoProject\\Source\\DemoAPI.csproj": {}
   },
   "projects": {
-    "N:\\Work\\Amazon\\DemoAPI\\Source\\DemoAPI.csproj": {
+    "N:\\Work\\Amazon\\CloudDemoProject\\Source\\DemoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "N:\\Work\\Amazon\\DemoAPI\\Source\\DemoAPI.csproj",
+        "projectUniqueName": "N:\\Work\\Amazon\\CloudDemoProject\\Source\\DemoAPI.csproj",
         "projectName": "DemoAPI",
-        "projectPath": "N:\\Work\\Amazon\\DemoAPI\\Source\\DemoAPI.csproj",
+        "projectPath": "N:\\Work\\Amazon\\CloudDemoProject\\Source\\DemoAPI.csproj",
         "packagesPath": "C:\\Users\\WizTonE\\.nuget\\packages\\",
-        "outputPath": "N:\\Work\\Amazon\\DemoAPI\\Source\\obj\\",
+        "outputPath": "N:\\Work\\Amazon\\CloudDemoProject\\Source\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.10, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.1, )"
