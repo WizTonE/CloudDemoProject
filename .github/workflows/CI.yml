@@ -34,4 +34,3 @@ jobs:
         repo: demoapi
         region: us-east-2
         dockerfile: Source/Dockerfile
-        context: Source
